@@ -1,6 +1,6 @@
 -- Crear la base de datos vacaciones
 CREATE DATABASE vacaciones;
--- Asignar un usuario y una contrasena a la base de datos
+-- Asignar un usuario y una clave a la base de datos
 GRANT ALL PRIVILEGES ON vacaciones.* TO 'usuario'@'localhost' IDENTIFIED BY 'clave';
 -- Seleccionar la base de datos vacaciones
 USE vacaciones;
